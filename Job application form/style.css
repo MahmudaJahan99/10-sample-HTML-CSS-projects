@@ -45,7 +45,9 @@ label {
     margin-bottom: 5px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     margin-top: 8px;
     padding: 6px 10px;
     font-size: 15px;
@@ -53,7 +55,9 @@ input, select, textarea {
     border-radius: 4px;
 }
 
-input:focus, select:focus, textarea:focus {
+input:focus,
+select:focus,
+textarea:focus {
     outline-color: red;
 }
 
@@ -83,12 +87,13 @@ button:hover {
 .textarea-control {
     grid-column: 1 / span 2;
 }
+
 .textarea-control textarea {
     width: 100%;
 }
 
-@media ( max-width: 460px ) {
+@media (max-width: 460px) {
     .textarea-control {
-    grid-column: 1 / span 1;
-}
+        grid-column: 1 / span 1;
+    }
 }
