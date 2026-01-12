@@ -74,3 +74,20 @@ This project demonstrates the parallax effect using fixed background images whil
 
 <u>Preview:</u> **
 
+---
+
+## 🎯 Goal of This Repository
+The goal of this repository is to:
+- practice clean and semantic HTML
+- improve CSS layout and styling skills
+- understand responsive web design
+- build visually appealing static websites
+
+---
+
+## 📌 Notes
+
+- Each project lives in its **own folder**
+- No frameworks used — **pure HTML & CSS**
+- Projects will be improved as I learn more
+
