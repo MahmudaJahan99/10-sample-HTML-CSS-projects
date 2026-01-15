@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    background-color: var(--purple600);
+    border: none;
+}
+
+img {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.divider {
+    border-bottom: 1px solid gray;
+}
+
+/* top navigation bar */
+header {
+    color: white;
+    background: var(--purple500);
+}
+
+nav {
+    background: var(--purple300);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-contents-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* hero contianer */
+.hero-container {
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container .hero-contents {
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+.hero-contents p:first-of-type {
+    font-size: 32px;
+}
+
+/* music section */
+.music-section-container {
+    text-align: center;
+    background-color: var(--purple500);
+    color: white;
+    padding: 20px 0;
+}
+
+.music-contents {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.music-contents p:first-of-type {
+    font-size: 24px;
+}
+
+.music-contents button {
+    background-color: var(--red600);
+}
+
+.music-contents p:last-of-type {
+    font-size: 14px;
+}
+
+.ipad-iphone-img {
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+
+.music-contents-2 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    margin-bottom: 400px;
+}
+
+.music-contents-2 p:first-of-type {
+    font-weight: 700;
+}
+
+/* video section */
+.video-section-container {
+    background: url(images/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-section-content {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+/* Gift Card section */
+.gifts-content {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gift-card-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift-card-detail button {
+    margin-left: 0;
+}
+
+/* footer */
+footer {
+    background-color: var(--purple600);
+    color: white;
+}
+
+.footer-content-container {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyrights {
+    background-color: var(--purple300);
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* responsive design */
+@media (max-width: 768px) {
+
+    /* hero contianer */
+    h1 {
+        font-size: 48px;
+    }
+
+    .hero-contents p:first-of-type {
+        font-size: 20px;
+    }
+
+    /* music section */
+    .music-contents {
+        gap: 20px;
+    }
+
+    .ipad-iphone-img {
+        margin-top: -250px;
+        top: 250px;
+    }
+
+    .music-contents-2 {
+        gap: 20px;
+        top: 250px;
+        margin-bottom: 250px;
+    }
+
+    /* Gift Card section */
+    .gifts-content img {
+        max-width: 50%;
+    }
+
+    .gift-card-detail {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    nav ul {
+    display: none;
+}
+
+    /* hero contianer */
+    h1 {
+        font-size: 36px;
+    }
+
+    .hero-contents p:first-of-type {
+        font-size: 18px;
+    }
+
+    /* music section */
+    .music-contents {
+        gap: 16px;
+    }
+
+    .ipad-iphone-img {
+        margin-top: -150px;
+        top: 150px;
+    }
+
+    .music-contents-2 {
+        gap: 16px;
+        top: 150px;
+        margin-bottom: 200px;
+    }
+
+    /* Gift Card section */
+    .gifts-content {
+        flex-direction: column;
+    }
+
+    .gifts-content img {
+        max-width: 50%;
+    }
+
+    /* footer */
+    footer {
+        background-color: var(--purple600);
+        color: white;
+    }
+
+    .footer-content-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

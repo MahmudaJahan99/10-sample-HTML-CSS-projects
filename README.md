@@ -88,7 +88,6 @@ A responsive restaurant landing page built using HTML and CSS. The website featu
 - Icons using Font Awesome
 
 **CSS Concepts Used:**  
-- Parallax scrolling using `background-attachment: fixed`  
 - Flexbox for layout (navigation, hero section, features, footer)  
 - CSS Grid with grid-template-areas for menu layout  
 - Responsive design using media queries  
@@ -99,6 +98,64 @@ A responsive restaurant landing page built using HTML and CSS. The website featu
 <u>Preview:</u> **
 
 ---
+
+### Project 5: Music Website
+**Description:**  
+A responsive landing page inspired by Apple’s iTunes, built using pure HTML and CSS. This project focuses on creating a visually rich, multi-section layout with a sticky navigation bar, hero section, music and video sections, gift card layout, and a structured footer. It helped me practice layout design, positioning, responsiveness, and organizing larger CSS files.
+
+**HTML Concepts Used:**  
+- Semantic HTML structure (`header`, `nav`, `main`, `section`, `footer`)
+- Navigation with anchor links  
+- Headings (`h1`–`h6`) and text content
+- Lists (`ul`, `li`) for navigation and footer links
+- Images and image attributes
+- Buttons and call-to-action elements
+- Icons using Font Awesome
+- Proper document structure and metadata (`meta`, `title`, `viewport`)
+
+**CSS Concepts Used:**  
+- CSS reset and box model (`box-sizing`)
+- CSS variables for color management (`:root`)
+- Flexbox for layout (navigation, hero content, sections, gift cards)
+- CSS Grid for footer layout
+- Background images and positioning
+- Sticky navigation bar (`position: sticky`, `z-index`)
+- Typography styling (Google Fonts, font sizes, spacing)
+- Responsive design using media queries (desktop-first approach)
+- Image responsiveness
+- Hover effects and transitions
+- Layering and positioning using `relative` positioning
+
+<u>Preview:</u> **
+
+---
+
+### Project 6: Developer Landing Page
+**Description:**
+A responsive developer landing page built using HTML and CSS. This project focuses on creating a strong hero section, showcasing services using card-based layouts, and structuring content with clean sections such as work, contact, and about. It helped me practice layout composition, responsive grids, and visual hierarchy.
+
+**HTML Concepts Used:**
+- Semantic HTML structure (`section`, `footer`)
+- Headings and text hierarchy (`h1`, `h2`, `h3`)
+- Image usage with `img` tags and alt attributes
+- Content grouping using `div` containers
+- Proper document structure (`doctype`, `head`, `body`)
+
+**CSS Concepts Used:**
+- CSS reset and box model (`box-sizing`)
+- Flexbox for layout (bottom section alignment)
+- CSS Grid for responsive card layout
+- Responsive design using `auto-fit` and `minmax()`
+- Background images and positioning
+- Typography styling (Google Fonts, font size, weight)
+- Card design with border-radius and box-shadow
+- Hover effects and transitions
+- Media queries for mobile responsiveness
+
+<u>Preview:</u> **
+
+---
+
 ## 🎯 Goal of This Repository
 The goal of this repository is to:
 - practice clean and semantic HTML
