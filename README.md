@@ -156,6 +156,56 @@ A responsive developer landing page built using HTML and CSS. This project focus
 
 ---
 
+### Project 7: JavaScript Documentation Page
+**Description:**
+A technical documentation-style webpage built using pure HTML and CSS. This project focuses on creating a clean, readable documentation layout with a fixed side navigation and well-structured content sections. It helped me practice semantic HTML, internal page navigation, and layout structuring using Flexbox.
+
+**HTML Concepts Used:**
+- Semantic HTML structure (`main`, `section`, `aside`)
+- Headings and text hierarchy (`h1`, `h2`)
+- Internal navigation using anchor links (`a href="#id"`)
+- Lists (ul, li) for navigation and content
+
+**CSS Concepts Used:**
+- CSS reset and box model
+- Flexbox for two-column layout (sidebar + main content)
+- Typography styling using Google Fonts
+- Fixed-width sidebar navigation styling
+- Code block styling (`white-space`)
+- Typography styling (Google Fonts, font size, weight)
+- Card design with border-radius and box-shadow
+- Hover effects and transitions
+- Media queries for mobile responsiveness
+
+<u>Preview:</u> **
+
+---
+
+### Project 8: YouTube Homepage Clone
+**Description:**
+A static clone of the YouTube homepage built using only HTML and CSS. The goal of this project was to recreate the overall layout and visual structure of YouTube’s interface, including the sidebar, navigation bar, tag filters, and video grid. This project helped me strengthen my understanding of layout techniques and responsive design without relying on JavaScript.
+
+**HTML Concepts Used:**
+- Semantic HTML structure (`main`, `aside` `header`, `nav`)
+- Proper document setup (`doctype`, `meta`, `head`, `body`)
+- Nested layout structuring with `div` containers
+- Reusable card-based UI structure
+- Logical grouping of content (navigation, sidebar, video cards)
+
+**CSS Concepts Used:**
+- CSS reset and box model
+- Flexbox for navigation bars, sidebar, and alignment
+- Typography styling using Google Fonts
+- CSS Grid for the responsive video card layout
+- Responsive sizing using `auto-fit` and `minmax()
+- Card design with border-radius and box-shadow
+- Spacing and alignment using `gap`, `padding`, and `margin`
+- Background colors and borders to visually separate sections
+
+<u>Preview:</u> **
+
+---
+
 ## 🎯 Goal of This Repository
 The goal of this repository is to:
 - practice clean and semantic HTML
