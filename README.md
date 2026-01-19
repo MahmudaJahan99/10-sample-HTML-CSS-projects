@@ -205,6 +205,29 @@ A static clone of the YouTube homepage built using only HTML and CSS. The goal o
 <u>Preview:</u> **
 
 ---
+### Project 9: Responsive Blog Website
+**Description:**
+A responsive multi-page blog website built using HTML and CSS. The project focuses on creating a clean and modern blog layout with a homepage showcasing featured posts and a dedicated blog page for detailed articles.
+
+**HTML Concepts Used:**
+- Semantic HTML structure
+- Proper document setup
+- Multi-page website structure (`index.html`, `blog.html`)
+- Logical content grouping (hero section, blog cards, featured articles)
+
+**CSS Concepts Used:**
+- CSS reset and box model
+- Flexbox for navigation, hero section, cards, and footer layouts
+- CSS Grid for blog card layout
+- Responsive design using media queries (mobile, tablet, desktop)
+- Hover effects and transitions for buttons
+- Spacing control using `margin`, `padding`, and `gap`
+- SResponsive image handling and layout adjustments
+- Conditional visibility of elements on smaller screens
+
+<u>Preview:</u> **
+
+---
 
 ## 🎯 Goal of This Repository
 The goal of this repository is to:
