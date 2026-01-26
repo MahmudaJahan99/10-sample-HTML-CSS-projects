@@ -259,7 +259,7 @@ A responsive multi-page blog website built using HTML and CSS. The project focus
 
 ---
 
-### Project 9: Portfolio Website
+### Project 10: Portfolio Website
 
 **Description:**
 A responsive portfolio website built using HTML and CSS. It includes a hero section with animated text, a projects showcase using card layouts, and a contact section with social links.

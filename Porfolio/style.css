@@ -90,6 +90,16 @@ nav li:hover {
     align-items: center;
 }
 
+.hero-image {
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(#003251, #003d62, #0089b7 80%);
+}
+
+.hero-image img {
+    margin-bottom: -10px;
+}
+
 .hero-content {
     display: grid;
     place-items: center;
@@ -163,7 +173,6 @@ nav li:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-
 }
 
 .grid-item {
@@ -262,10 +271,22 @@ footer {
 }
 
 /* Responsive design */
-
 @media (max-width: 786px) {
     html {
         font-size: 40%;
+    }
+
+    .container {
+        margin-inline: 20px;
+    }
+
+    #hero .container {
+        gap: 4rem;
+    }
+
+    .hi-text,
+    .name-text {
+        font-size: 4rem;
     }
 
     #contact .container {
@@ -278,13 +299,31 @@ footer {
         font-size: 32%;
     }
 
+    #projects h3,
+    #contact h5 {
+        font-size: 3rem;
+    }
+
     #hero .container {
         flex-direction: column;
     }
 
     .hero-image {
+        width: 200px;
         display: grid;
         place-items: center;
+    }
+
+    #contact .container {
+        height: 50vh;
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .card {
+        width: 250px;
     }
 
     #contact .container {
