@@ -66,3 +66,18 @@ body {
     background-color: #282e34;
     color: #ddd;
 }
+
+/*==================== Responsive media queries ====================*/
+@media screen and (max-width: 520px) {
+    .ptext {
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 40px;
+
+}
+
+.text-bg {
+    padding: 10px;
+}
+
+}

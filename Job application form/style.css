@@ -1,4 +1,4 @@
-* {
+*, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,15 @@
 
 body {
     background-color: #ccc;
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 .container {
     max-width: 900px;
-    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .apply-box {
@@ -18,7 +22,6 @@ body {
     padding: 20px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 50px;
     box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
     border-radius: 10px;
 }
@@ -92,8 +95,22 @@ button:hover {
     width: 100%;
 }
 
+/*==================== Responsive media queries ====================*/
+@media (max-width: 768px) {
+}
+
 @media (max-width: 460px) {
+    .container {
+        padding: 1rem;
+    }
     .textarea-control {
         grid-column: 1 / span 1;
+    }
+}
+
+/* For 2K resolutions */
+@media screen and (min-width: 2048px) {
+    body {
+        zoom: 2;
     }
 }
