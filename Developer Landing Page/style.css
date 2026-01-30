@@ -95,11 +95,11 @@ body {
 
 .bottom-section {
     display: flex;
-
 }
 
 .contact,
 .about {
+    width: 100%;
     min-height: 300px;
     padding: 32px;
     color: white;
@@ -142,8 +142,8 @@ footer {
         text-align: center;
     }
 
-    .lg_text {
-        font-size: 32px;
+    .lg-heading {
+        font-size: 36px;
     }
 
     .black_box h2 {
@@ -155,7 +155,7 @@ footer {
         font-size: 32px;
     }
 
-    .bottom_section {
+    .bottom-section {
         flex-direction: column;
     }
 

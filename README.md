@@ -172,7 +172,7 @@ A responsive developer landing page built using HTML and CSS. This project focus
 - Hover effects and transitions
 - Media queries for mobile responsiveness
 
-<u>Preview:</u> \*\*
+<u>Preview: https://mahmudajahan99.github.io/10-sample-HTML-CSS-projects/Developer%20Landing%20Page/ </u>
 
 ---
 
