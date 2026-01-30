@@ -255,7 +255,7 @@ A responsive multi-page blog website built using HTML and CSS. The project focus
 - Responsive image handling and layout adjustments
 - Conditional visibility of elements on smaller screens
 
-<u>Preview:</u> \*\*
+<u>Preview: https://mahmudajahan99.github.io/10-sample-HTML-CSS-projects/Blog%20Page/ </u>
 
 ---
 

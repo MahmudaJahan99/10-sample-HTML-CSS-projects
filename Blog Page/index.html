@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Blog Website</title>
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <!-- font awesome -->
@@ -13,157 +14,188 @@
     ></script>
   </head>
   <body>
-    <header>
-      <nav class="container-content-flex">
+    <!-- Header -->
+    <header class="">
+      <nav class="nav-container container">
         <div class="logo">GreatZone</div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="blog.html">Posts</a></li>
-          <li>
-            <a href="#instram">
+        <ul class="nav-links">
+          <li class="nav-link"><a href="index.html">Home</a></li>
+          <li class="nav-link"><a href="blog.html">Posts</a></li>
+          <li class="nav-link social-link">
+            <a href="https://www.instagram.com/">
               <i class="fa-brands fa-square-instagram"></i>
             </a>
           </li>
-          <li>
-            <a href="#twitter">
+          <li class="nav-link social-link">
+            <a href="https://www.youtube.com/">
               <i class="fa-brands fa-square-x-twitter"></i>
             </a>
           </li>
-          <li>
-            <a href="#linkedIn">
+          <li class="nav-link social-link">
+            <a href="https://www.youtube.com/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
         </ul>
       </nav>
-      <section class="hero-section container-content-flex">
-        <div class="hero-content">
+    </header>
+
+    <main>
+      <section class="hero-section container">
+        <div class="hero-text-content">
           <h1>Make Zone Better !</h1>
           <p>Why Is Better Zone Important ?</p>
         </div>
-        <div class="hero-img">
-          <img src="images/hero.png" alt="Fpur friends enjoying" />
+        <div class="hero-image-container">
+          <img src="images/hero.png" alt="Hero Image" class="hero-img" />
         </div>
       </section>
-    </header>
-    <main>
-      <section class="blogs-container container">
-        <div class="latest-content-container container-content-flex">
-          <div class="latest-blog">
-            <h5>Long Established</h5>
+
+      <!-- Cards Section -->
+      <section class="blogs-section container">
+        <div class="blog-cards-contianer">
+          <!-- Blog Card 1 -->
+          <article class="blog-card">
+            <div class="blog-image-container">
+              <img
+                src="images/long-card.png"
+                alt="Blog thumbnail"
+                class="blog-card-img"
+              />
+            </div>
+            <div class="blog-content">
+              <h3>Sample blog article heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate, culpa. Nesciunt, repellendus quis quisquam suscipit
+                pariatur dolores vero voluptas laborum.
+              </p>
+
+              <div class="blog-button">
+                <p class="date">18th January 2026</p>
+                <button>Read more</button>
+              </div>
+            </div>
+          </article>
+          <!-- Blog Card 2 -->
+          <article class="blog-card">
+            <div class="blog-image-container">
+              <img
+                src="images/card1.png"
+                alt="Blog thumbnail"
+                class="blog-card-img"
+              />
+            </div>
+            <div class="blog-content">
+              <h3>Sample blog article heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate, culpa. Nesciunt, repellendus quis quisquam suscipit
+                pariatur dolores vero voluptas laborum.
+              </p>
+              <div class="blog-button">
+                <p class="date">19th January 2026</p>
+                <button>Read more</button>
+              </div>
+            </div>
+          </article>
+          <!-- Blog Card 3 -->
+          <article class="blog-card">
+            <div class="blog-image-container">
+              <img
+                src="images/card2.png"
+                alt="Blog thumbnail"
+                class="blog-card-img"
+              />
+            </div>
+            <div class="blog-content">
+              <h3>Sample blog article heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate, culpa. Nesciunt, repellendus quis quisquam suscipit
+                pariatur dolores vero voluptas laborum.
+              </p>
+              <div class="blog-button">
+                <p class="date">20th January 2026</p>
+
+                <button>Read more</button>
+              </div>
+            </div>
+          </article>
+          <!-- Blog Card 4 -->
+          <article class="blog-card">
+            <div class="blog-image-container">
+              <img
+                src="images/card3.png"
+                alt="Blog thumbnail"
+                class="blog-card-img"
+              />
+            </div>
+            <div class="blog-content">
+              <h3>Sample blog article heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Cupiditate, culpa. Nesciunt, repellendus quis quisquam suscipit
+                pariatur dolores vero voluptas laborum.
+              </p>
+              <div class="blog-button">
+                <p class="date">14th January 2026</p>
+                <button>Read more</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Feature News -->
+      <section class="news-section container">
+        <article class="news-card">
+          <div class="news-image-container">
+            <img
+              src="images/long-big-card.png"
+              alt="news thumbnail"
+              class="news-card-img"
+            />
+          </div>
+          <div class="news-content">
+            <h3>Sample blog article heading</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
-              neque ullam repellat qui ipsa? Ex autem aut optio dolorem
-              blanditiis velit ea dolorum id vel error incidunt repellat, soluta
-              nulla?
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate, culpa. Nesciunt, repellendus quis quisquam suscipit
+              pariatur dolores vero voluptas laborum.
             </p>
-            <div class="card-bottom">
-              <p>January 18th 2026</p>
-              <button class="primary-btn">Read more</button>
+            <div class="news-button">
+              <p class="date">18th January 2026</p>
+              <button>Read more</button>
             </div>
           </div>
-          <div class="img-container">
-            <img src="images/long-card.png" alt="A guy on his MacBook" />
-          </div>
-        </div>
-        <div class="blog-cards-container container">
-          <!-- Item 1 -->
-          <div class="blog-card container-content-flex">
-            <div class="img-container">
-              <img src="images/card1.png" alt="programming on a laptop" />
-            </div>
-            <div class="text-content">
-              <h6>Lorem ipsum dolor</h6>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Cupiditate tempore, doloremque ab adipisci voluptas quam.
-              </p>
-              <div class="card-bottom">
-                <p>January 18th 2026</p>
-                <button class="primary-btn">Read more</button>
-              </div>
-            </div>
-          </div>
-          <!-- Item 2 -->
-          <div class="blog-card container-content-flex">
-            <div class="img-container">
-              <img src="images/card2.png" alt="programming on a laptop" />
-            </div>
-            <div class="text-content">
-              <h6>Lorem ipsum dolor</h6>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Cupiditate tempore, doloremque ab adipisci voluptas quam.
-              </p>
-              <div class="card-bottom">
-                <p>January 18th 2026</p>
-                <button class="primary-btn">Read more</button>
-              </div>
-            </div>
-          </div>
-          <!-- Item 3 -->
-          <div class="blog-card container-content-flex">
-            <div class="img-container">
-              <img src="images/card3.png" alt="programming on a laptop" />
-            </div>
-            <div class="text-content">
-              <h6>Lorem ipsum dolor</h6>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Cupiditate tempore, doloremque ab adipisci voluptas quam.
-              </p>
-              <div class="card-bottom">
-                <p>January 18th 2026</p>
-                <button class="primary-btn">Read more</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <article class="container container-content-flex">
-        <div class="article-content">
-          <h2>What is Web Development?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
-            consequatur aspernatur id excepturi est consectetur ut neque veniam
-            sapiente amet doloribus suscipit officia architecto quod cupiditate!
-            Dolore unde ducimus cumque.
-          </p>
-          <div class="card-bottom">
-            <p>January 18th 2026</p>
-            <button class="primary-btn">Read more</button>
-          </div>
-        </div>
-        <div class="img-container">
-          <img src="images/long-big-card.png" alt="" />
-        </div>
-      </article>
-      <div class="see-more-btn container">
-        <button class="primary-btn">
+        </article>
+        <button class="see-more-btn">
           See more <i class="fa-solid fa-arrow-down"></i>
         </button>
-      </div>
+      </section>
     </main>
-    <footer>
-      <p>GreatZone 2026 copyright all rights reserved</p>
-      <div class="socials">
-        <ul>
-          <li>
-            <a href="#instram">
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-links">
+          <li class="nav-link social-link">
+            <a href="https://www.instagram.com/">
               <i class="fa-brands fa-square-instagram"></i>
             </a>
           </li>
-          <li>
-            <a href="#twitter">
+          <li class="nav-link social-link">
+            <a href="https://www.youtube.com/">
               <i class="fa-brands fa-square-x-twitter"></i>
             </a>
           </li>
-          <li>
-            <a href="#linkedIn">
+          <li class="nav-link social-link">
+            <a href="https://www.youtube.com/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
         </ul>
+        <p>© 2026 Mahmuda Jahan. Made with ❤️ and code.</p>
       </div>
     </footer>
   </body>
